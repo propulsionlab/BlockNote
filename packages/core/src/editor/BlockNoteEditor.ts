@@ -394,10 +394,15 @@ export class BlockNoteEditor<
   public getBlock(
     blockIdentifier: BlockIdentifier
   ): Block<BSchema, ISchema, SSchema> | undefined {
+  if (!blockIdentifier) {
+    return 
+  }
+  
     const id =
       typeof blockIdentifier === "string"
         ? blockIdentifier
-        : blockIdentifier.id;
+        : blockIdentifier?.id;
+        
     let newBlock: Block<BSchema, ISchema, SSchema> | undefined = undefined;
 
     this._tiptapEditor.state.doc.firstChild!.descendants((node) => {
@@ -405,7 +410,7 @@ export class BlockNoteEditor<
         return false;
       }
 
-      if (node.type.name !== "blockContainer" || node.attrs.id !== id) {
+      if (node.type.name !== "blockContainer" || node.attrs?.id !== id) {
         return true;
       }
 

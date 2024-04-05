@@ -485,7 +485,7 @@ export class SideMenuView<
           blockContentBoundingBox.height
         ),
         block: this.editor.getBlock(
-          this.hoveredBlock!.getAttribute("data-id")!
+          this.hoveredBlock!.getAttribute("data-id")! || ''
         )!,
       };
 
