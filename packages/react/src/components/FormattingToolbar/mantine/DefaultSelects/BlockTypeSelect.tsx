@@ -5,7 +5,7 @@ import {
   DefaultBlockSchema,
   InlineContentSchema,
   StyleSchema,
-} from "@blocknote/core";
+} from "blocknote-core";
 import { useMemo, useState } from "react";
 import type { IconType } from "react-icons";
 import {

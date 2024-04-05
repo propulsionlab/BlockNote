@@ -1,4 +1,4 @@
-import { BlockNoteEditor } from "@blocknote/core";
+import { BlockNoteEditor } from "blocknote-core";
 import { ReactRenderer } from "@tiptap/react";
 import { useEffect, useState } from "react";
 import { createPortal, flushSync } from "react-dom";

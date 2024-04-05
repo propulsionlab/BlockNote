@@ -1,5 +1,5 @@
 @import url("./mantineStyles.css");
-@import url("@blocknote/core/style.css");
+@import url("blocknote-core/style.css");
 
 /* Default theme params */
 .bn-container {

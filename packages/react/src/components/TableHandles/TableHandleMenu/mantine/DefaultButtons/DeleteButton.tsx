@@ -5,7 +5,7 @@ import {
   InlineContentSchema,
   StyleSchema,
   TableContent,
-} from "@blocknote/core";
+} from "blocknote-core";
 
 import { TableHandleMenuProps } from "../../TableHandleMenuProps";
 import { TableHandleMenuItem } from "../TableHandleMenuItem";

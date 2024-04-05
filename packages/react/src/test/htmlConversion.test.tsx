@@ -10,7 +10,7 @@ import {
   createExternalHTMLExporter,
   createInternalHTMLSerializer,
   partialBlocksToBlocksForTesting,
-} from "@blocknote/core";
+} from "blocknote-core";
 import { flushSync } from "react-dom";
 import { Root, createRoot } from "react-dom/client";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
@@ -22,7 +22,7 @@ import {
 import { customReactInlineContentTestCases } from "./testCases/customReactInlineContent";
 import { customReactStylesTestCases } from "./testCases/customReactStyles";
 
-// TODO: code same from @blocknote/core, maybe create separate test util package
+// TODO: code same from blocknote-core, maybe create separate test util package
 async function convertToHTMLAndCompareSnapshots<
   B extends BlockSchema,
   I extends InlineContentSchema,

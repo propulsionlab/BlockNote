@@ -5,7 +5,7 @@ import {
   DefaultStyleSchema,
   InlineContentSchema,
   StyleSchema,
-} from "@blocknote/core";
+} from "blocknote-core";
 import { ChangeEvent, KeyboardEvent, useCallback, useState } from "react";
 
 import { ImagePanelProps } from "../../ImagePanelProps";

@@ -7,7 +7,7 @@ import {
   DefaultStyleSchema,
   InlineContentSchema,
   StyleSchema,
-} from "@blocknote/core";
+} from "blocknote-core";
 import { Box, Menu } from "@mantine/core";
 import { ReactNode, useCallback, useRef, useState } from "react";
 import { HiChevronRight } from "react-icons/hi";

@@ -4,7 +4,7 @@ import {
   getDefaultSlashMenuItems,
   InlineContentSchema,
   StyleSchema,
-} from "@blocknote/core";
+} from "blocknote-core";
 import { IconType } from "react-icons";
 import {
   RiH1,

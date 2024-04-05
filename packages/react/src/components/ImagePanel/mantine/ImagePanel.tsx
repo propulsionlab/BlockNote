@@ -4,7 +4,7 @@ import {
   DefaultStyleSchema,
   InlineContentSchema,
   StyleSchema,
-} from "@blocknote/core";
+} from "blocknote-core";
 import { Group, LoadingOverlay, Tabs } from "@mantine/core";
 import { ReactNode, useState } from "react";
 

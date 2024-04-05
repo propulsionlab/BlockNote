@@ -4,7 +4,7 @@ import {
   checkDefaultBlockTypeInSchema,
   InlineContentSchema,
   StyleSchema,
-} from "@blocknote/core";
+} from "blocknote-core";
 import {
   ChangeEvent,
   KeyboardEvent,

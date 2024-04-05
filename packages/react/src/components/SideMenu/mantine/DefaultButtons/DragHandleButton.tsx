@@ -5,7 +5,7 @@ import {
   DefaultStyleSchema,
   InlineContentSchema,
   StyleSchema,
-} from "@blocknote/core";
+} from "blocknote-core";
 import { Menu } from "@mantine/core";
 import { MdDragIndicator } from "react-icons/md";
 

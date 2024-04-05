@@ -1,7 +1,7 @@
 import { Button, Menu } from "@mantine/core";
 import { usePreventMenuOverflow } from "../../../hooks/usePreventMenuOverflow";
 import { ToolbarSelectItem, ToolbarSelectItemProps } from "./ToolbarSelectItem";
-import { isSafari } from "@blocknote/core";
+import { isSafari } from "blocknote-core";
 import { HiChevronDown } from "react-icons/hi";
 
 export type ToolbarSelectProps = {

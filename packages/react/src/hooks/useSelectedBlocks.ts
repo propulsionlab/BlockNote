@@ -4,7 +4,7 @@ import {
   BlockSchema,
   InlineContentSchema,
   StyleSchema,
-} from "@blocknote/core";
+} from "blocknote-core";
 import { useState } from "react";
 import { useBlockNoteContext } from "../editor/BlockNoteContext";
 import { useEditorContentOrSelectionChange } from "./useEditorContentOrSelectionChange";

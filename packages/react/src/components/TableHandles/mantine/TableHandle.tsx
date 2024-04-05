@@ -4,7 +4,7 @@ import {
   InlineContentSchema,
   mergeCSSClasses,
   StyleSchema,
-} from "@blocknote/core";
+} from "blocknote-core";
 import { Menu } from "@mantine/core";
 import { ReactNode, useState } from "react";
 

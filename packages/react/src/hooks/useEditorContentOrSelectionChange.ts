@@ -1,4 +1,4 @@
-import type { BlockNoteEditor } from "@blocknote/core";
+import type { BlockNoteEditor } from "blocknote-core";
 import { useEditorChange } from "./useEditorChange";
 import { useEditorSelectionChange } from "./useEditorSelectionChange";
 

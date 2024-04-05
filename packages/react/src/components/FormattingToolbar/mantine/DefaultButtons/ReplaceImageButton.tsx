@@ -3,7 +3,7 @@ import {
   checkBlockIsDefaultType,
   InlineContentSchema,
   StyleSchema,
-} from "@blocknote/core";
+} from "blocknote-core";
 import { Popover } from "@mantine/core";
 import { useEffect, useState } from "react";
 import { RiImageEditFill } from "react-icons/ri";

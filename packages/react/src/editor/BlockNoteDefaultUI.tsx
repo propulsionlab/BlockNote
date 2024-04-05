@@ -1,4 +1,4 @@
-import { filterSuggestionItems } from "@blocknote/core";
+import { filterSuggestionItems } from "blocknote-core";
 import { FormattingToolbarController } from "../components/FormattingToolbar/FormattingToolbarController";
 import { LinkToolbarController } from "../components/LinkToolbar/LinkToolbarController";
 import { ImagePanelController } from "../components/ImagePanel/ImagePanelController";

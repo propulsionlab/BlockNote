@@ -4,7 +4,7 @@ import {
   StyleSchema,
   SuggestionMenuState,
   filterSuggestionItems,
-} from "@blocknote/core";
+} from "blocknote-core";
 import { flip, offset, size } from "@floating-ui/react";
 import { FC } from "react";
 

@@ -4,7 +4,7 @@ import {
   DefaultStyleSchema,
   InlineContentSchema,
   StyleSchema,
-} from "@blocknote/core";
+} from "blocknote-core";
 import { ReactNode } from "react";
 
 import { TableHandleMenuProps } from "../TableHandleMenuProps";

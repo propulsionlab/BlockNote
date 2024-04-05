@@ -7,7 +7,7 @@ import {
   blockToNode,
   nodeToBlock,
   partialBlockToBlockForTesting,
-} from "@blocknote/core";
+} from "blocknote-core";
 import { flushSync } from "react-dom";
 import { Root, createRoot } from "react-dom/client";
 import { BlockNoteView } from "../editor/BlockNoteView";

@@ -6,7 +6,7 @@ import {
   EditorTestCases,
   defaultStyleSpecs,
   uploadToTmpFilesDotOrg_DEV_ONLY,
-} from "@blocknote/core";
+} from "blocknote-core";
 import { createReactStyleSpec } from "../../schema/ReactStyleSpec";
 
 const small = createReactStyleSpec(

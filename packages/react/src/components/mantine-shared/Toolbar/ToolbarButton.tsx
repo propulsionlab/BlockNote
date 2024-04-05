@@ -2,7 +2,7 @@ import { ActionIcon, Button, Tooltip } from "@mantine/core";
 import { MouseEvent, forwardRef } from "react";
 import type { IconType } from "react-icons";
 
-import { isSafari } from "@blocknote/core";
+import { isSafari } from "blocknote-core";
 import { TooltipContent } from "../Tooltip/TooltipContent";
 
 export type ToolbarButtonProps = {
