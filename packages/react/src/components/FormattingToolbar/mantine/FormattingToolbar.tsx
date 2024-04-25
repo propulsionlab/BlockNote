@@ -20,22 +20,22 @@ import {
 export const getFormattingToolbarItems = (
   blockTypeSelectItems?: BlockTypeSelectItem[]
 ): JSX.Element[] => [
-  <BlockTypeSelect key={"blockTypeSelect"} items={blockTypeSelectItems} />,
-  <ImageCaptionButton key={"imageCaptionButton"} />,
-  <ReplaceImageButton key={"replaceImageButton"} />,
+  // <BlockTypeSelect key={"blockTypeSelect"} items={blockTypeSelectItems} />,
+  // <ImageCaptionButton key={"imageCaptionButton"} />,
+  // <ReplaceImageButton key={"replaceImageButton"} />,
   <BasicTextStyleButton basicTextStyle={"bold"} key={"boldStyleButton"} />,
   <BasicTextStyleButton basicTextStyle={"italic"} key={"italicStyleButton"} />,
   <BasicTextStyleButton
     basicTextStyle={"underline"}
     key={"underlineStyleButton"}
   />,
-  <BasicTextStyleButton basicTextStyle={"strike"} key={"strikeStyleButton"} />,
-  <TextAlignButton textAlignment={"left"} key={"textAlignLeftButton"} />,
-  <TextAlignButton textAlignment={"center"} key={"textAlignCenterButton"} />,
-  <TextAlignButton textAlignment={"right"} key={"textAlignRightButton"} />,
-  <ColorStyleButton key={"colorStyleButton"} />,
-  <NestBlockButton key={"nestBlockButton"} />,
-  <UnnestBlockButton key={"unnestBlockButton"} />,
+  // <BasicTextStyleButton basicTextStyle={"strike"} key={"strikeStyleButton"} />,
+  // <TextAlignButton textAlignment={"left"} key={"textAlignLeftButton"} />,
+  // <TextAlignButton textAlignment={"center"} key={"textAlignCenterButton"} />,
+  // <TextAlignButton textAlignment={"right"} key={"textAlignRightButton"} />,
+  // <ColorStyleButton key={"colorStyleButton"} />,
+  // <NestBlockButton key={"nestBlockButton"} />,
+  // <UnnestBlockButton key={"unnestBlockButton"} />,
   <CreateLinkButton key={"createLinkButton"} />,
 ];
 
