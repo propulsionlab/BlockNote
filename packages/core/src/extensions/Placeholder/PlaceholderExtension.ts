@@ -21,7 +21,7 @@ export const Placeholder = Extension.create<PlaceholderOptions>({
   addOptions() {
     return {
       placeholders: {
-        default: "Enter text or type '/' for commands",
+        default: "Enter text or type '@' for assets",
         heading: "Heading",
         bulletListItem: "List",
         numberedListItem: "List",

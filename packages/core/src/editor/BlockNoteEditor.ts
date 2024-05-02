@@ -402,7 +402,7 @@ export class BlockNoteEditor<
       typeof blockIdentifier === "string"
         ? blockIdentifier
         : blockIdentifier?.id;
-        
+
     let newBlock: Block<BSchema, ISchema, SSchema> | undefined = undefined;
 
     this._tiptapEditor.state.doc.firstChild!.descendants((node) => {
@@ -558,8 +558,9 @@ export class BlockNoteEditor<
     targetBlock: BlockIdentifier,
     placement: "start" | "end" = "start"
   ) {
+    console.log(targetBlock, placement, 'targetblock, placement')
     const id = typeof targetBlock === "string" ? targetBlock : targetBlock.id;
-
+    console.log(id, 'id')
     const { posBeforeNode } = getNodeById(id, this._tiptapEditor.state.doc);
     const { startPos, contentNode } = getBlockInfoFromPos(
       this._tiptapEditor.state.doc,
@@ -575,11 +576,12 @@ export class BlockNoteEditor<
     }
 
     if (contentType === "inline") {
+      console.log(contentType, placement, 'content type, placement')
       if (placement === "start") {
         this._tiptapEditor.commands.setTextSelection(startPos + 1);
       } else {
-        this._tiptapEditor.commands.setTextSelection(
-          startPos + contentNode.nodeSize - 1
+        this._tiptapEditor?.commands?.setTextSelection(
+          startPos + contentNode?.nodeSize - 1
         );
       }
     } else if (contentType === "table") {
